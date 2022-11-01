@@ -30,7 +30,7 @@ const MainPanel = () => {
          </div>
 
         </div>
-        <span style={{marginLeft:"950px", backgroundColor:"rgb(173, 32, 255)",padding :"6px 25px",borderRadius:"7px",marginRight:"10px", border:"1px solid rgb(173, 32, 255)"}}>Save</span>
+        <span style={{marginLeft:"900px", backgroundColor:"rgb(173, 32, 255)",padding :"6px 25px",borderRadius:"7px",marginRight:"10px", border:"1px solid rgb(173, 32, 255)"}}>Save</span>
     </div>
   )
 }
