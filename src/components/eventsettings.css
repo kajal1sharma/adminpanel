@@ -1,0 +1,27 @@
+.eventItem{
+    text-align:left;
+    padding:10px 25px; 
+}
+.eventItem:hover{
+    border-left: 6px solid rgb(173, 32, 255);
+    background-color: rgba(173, 32, 255, 0.135);
+    color:rgb(173, 32, 255);
+    /* color:#82fc77; */
+    /* color:rgba(128, 128, 128, 0.37); */
+}
+.inputlist{
+    background-color:#82fc77 ;
+    fill:#82fc77;
+    color:#82fc77;
+    
+    border: 1px solid #82fc77;
+    width:20px;
+    height:20px;
+}
+input::after{
+    color:#82fc77
+}
+.leftsidePanelcontainer:hover{
+  border:3px solid rgb(173, 32, 255);
+  border-radius: 5px;
+}
