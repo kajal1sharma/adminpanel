@@ -2,7 +2,7 @@ import React from 'react'
 import "./eventsettings.css"
 const List = ({data, description}) => {
   return (
-    <div style={{ alignSelf:"flex-start",width:"100vh",height:"7vh" ,justifySelf:"flex-start", paddingLeft:"180px"}}>
+    <div style={{ alignSelf:"flex-start",width:"100vh",height:"6.5vh" ,justifySelf:"flex-start", paddingLeft:"180px"}}>
       <span style={{textAlign:"left",fontWeight:700, display:"block"}}>{data}</span>
       <span style={{textAlign:"left",display:"block"}}>
         <span style={{color:"rgb(120, 120, 120)", fontWeight:500, width:"40vw", display:"inline-block"}}>{description}</span>

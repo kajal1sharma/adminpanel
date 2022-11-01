@@ -17,7 +17,7 @@ const MainPanel = () => {
             if(ele.data==="Maximum Question Length"){
               return  <>
                         <List data={ele.data} description={ele.description}/>
-                        <div>
+                        <div style={{marginLeft:"180px", alignSelf:"flex-start", margin:"20px 180px"}}>
                           <span style={{backgroundColor:"rgb(173, 32, 255)",padding :"6px 25px",borderRadius:"7px",marginRight:"10px", border:"1px solid rgb(173, 32, 255)"}}>160</span>
                           <span style={{backgroundColor:"rgb(173, 32, 255)",padding :"6px 25px",borderRadius:"7px", marginRight:"10px",border:"1px solid rgb(173, 32, 255)"}}>240</span>
                           <span style={{backgroundColor:"rgb(173, 32, 255)",padding :"6px 25px",borderRadius:"7px", border:"1px solid rgb(173, 32, 255)"}}>300</span>
@@ -30,7 +30,7 @@ const MainPanel = () => {
          </div>
 
         </div>
-        <span style={{backgroundColor:"rgb(173, 32, 255)",padding :"6px 25px",borderRadius:"7px",marginRight:"10px", border:"1px solid rgb(173, 32, 255)"}}>Save</span>
+        <span style={{marginLeft:"950px", backgroundColor:"rgb(173, 32, 255)",padding :"6px 25px",borderRadius:"7px",marginRight:"10px", border:"1px solid rgb(173, 32, 255)"}}>Save</span>
     </div>
   )
 }
